@@ -11,5 +11,5 @@ pip3 install truthbrush
 export TRUTHSOCIAL_USERNAME="your_username"
 export TRUTHSOCIAL_PASSWORD="your_password"
 
-truthbrush statuses realDonaldTrump > realDonaldTrump_truths.json
+truthbrush statuses realDonaldTrump > realDonaldTrump_truths4.json
 ```
