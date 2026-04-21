@@ -6,3 +6,7 @@ beautifulsoup4
 lxml
 matplotlib
 seaborn
+bertopic
+sentence-transformers
+umap-learn
+hdbscan
