@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+jupyter
+notebook
+beautifulsoup4
+lxml
+matplotlib
+seaborn
+bertopic
+sentence-transformers
+umap-learn
+hdbscan
+vaderSentiment
