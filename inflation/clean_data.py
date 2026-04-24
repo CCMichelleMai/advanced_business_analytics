@@ -96,18 +96,3 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-import matplotlib.pyplot as plt
-import numpy as np
-
-corr = df.drop(columns=["date"]).corr()
-
-plt.figure()
-plt.imshow(corr)
-
-plt.colorbar()
-plt.xticks(range(len(corr.columns)), corr.columns, rotation=90)
-plt.yticks(range(len(corr.columns)), corr.columns)
-
-plt.title("Feature Correlation Matrix")
-plt.tight_layout()
-plt.show()
